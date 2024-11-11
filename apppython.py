@@ -6,8 +6,8 @@ app.config["DEBUG"] = True
 @app.route('/', methods = ["GET"])
 def hello():
     data = [{
-        'nama': 'dimas anjay mabar',
-        'pekerjaan' : 'penguasa dunia',
+        'nama': 'akbarr',
+        'pekerjaan' : 'polisi dunia',
         'pesan' : 'kamu pasti takut ketemu evos galang'
     }]
     return make_response(jsonify({'data': data}), 200)
@@ -19,26 +19,26 @@ def karyawan():
     try:
         if request.method == 'GET':
             data = [{
-                'nama' : 'dimas GET',
-                'pekerjaan' : 'penguasa dunia',
+                'nama' : 'akbarr GET',
+                'pekerjaan' : 'polisi dunia',
                 'usia' : '10',
             }]
         elif request.method == 'POST':
             data = [{
-                'nama' : 'dimas POST',
-                'pekerjan' : 'penguasa dunia',
+                'nama' : 'akbarr POST',
+                'pekerjan' : 'polisi dunia',
                 'usia' : '10',
             }]
         elif request.method == 'PUT':
             data = [{
-                'nama' : 'dimas PUT', 
-                'pekerjaan' : 'penguasa dunia',
+                'nama' : 'akbarr PUT', 
+                'pekerjaan' : 'polisi dunia',
                 'usia' : '10'
             }]
         else:
             data = [{
-                'nama' : 'alfin DELETE',
-                'pekerjaan' : 'penguasa dunia',
+                'nama' : 'selmaet DELETE',
+                'pekerjaan' : 'polisi dunia',
                 'usia' : '10',
             }]
     except Exception as e:
