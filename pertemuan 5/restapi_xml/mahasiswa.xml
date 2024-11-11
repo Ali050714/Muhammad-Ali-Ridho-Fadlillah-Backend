@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mahasiswa>
+    <nama>ToniC70</nama>
+    <alamat>Sobo</alamat>
+    <jurusan>Teknik Informatika</jurusan>
+
+    <hobi name="Makan"/>
+    <hobi name="Mancing"/>
+    <hobi name="Lihat Anime"/>
+</mahasiswa> 

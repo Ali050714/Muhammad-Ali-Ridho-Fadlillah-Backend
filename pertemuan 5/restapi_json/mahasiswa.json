@@ -1,0 +1,28 @@
+{
+    "mahasiswa": [
+        {
+            "nama": "abdul munir",
+            "social_media": {
+                "facebook": "abdulgntng",
+                "twitter": "@munirisgone",
+                "instagram": "@isgonemunir"
+            }
+        },
+        {
+            "nama": "samsulRX",
+            "social_media": {
+                "facebook": "samsulRX",
+                "twitter": "@RXsamsul456",
+                "instagram": "@samsulkeren99"
+            }
+        },
+        {
+            "nama": "antonigasing",
+            "social_media": {
+                "facebook": "elgasing",
+                "twitter": "@gasingggggg",
+                "instagram": "@beban MU"
+            }
+        }
+    ]
+}
